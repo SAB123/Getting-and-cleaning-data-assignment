@@ -1,7 +1,4 @@
-datasciencecoursera
-===================
-
-Created for Get and Clean Data course
+Created for Getting and Cleaning Data course
 
 ##    Getting & Cleaning Data Project  Readme.md 20.06.2014
 
