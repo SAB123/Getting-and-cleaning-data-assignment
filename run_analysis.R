@@ -120,5 +120,3 @@ names(narrow_tidy_data)[4]<- "measurement"
 ## write the narrow data set to file for project, row_names=FALSE stops the rows being numbered 
 write.table(narrow_tidy_data,file="narrow_tidy_data.txt", row.names= FALSE, append=FALSE)
 
-t<-read.table("narrow_tidy_data.txt", quote = "\"'", 
-                             na.strings = "NA",blank.lines.skip = TRUE)
