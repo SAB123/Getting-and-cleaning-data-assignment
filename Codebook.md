@@ -20,35 +20,35 @@ narrow_tidy_data.txt in the working directory, overwritten each time, this can b
 
 ####The files downloaded are:
 
-The training data - subject_train.txt (subject ids), X_train.txt (movement vectors) y_train.txt (activity ids)
-The test data - subject_test.txt (subject ids) X_test.txt (movement vectors) y_test.txt (activity ids)
-Features.txt containing the list of variable names used for X_train and X_test, these 
+*The training data - subject_train.txt (subject ids), X_train.txt (movement vectors) y_train.txt (activity ids)
+*The test data - subject_test.txt (subject ids) X_test.txt (movement vectors) y_test.txt (activity ids)
+*Features.txt containing the list of variable names used for X_train and X_test, these 
 	names were not changed during processing so that they can provide an audit trail back to the 
 	original data and are found in the 'Movement_type' column of the output data.
-Activities.txt provided the list of Activities and their level.
+*Activities.txt provided the list of Activities and their level.
 
 ####libraries required
-	plyr
-	reshape2
+*	plyr
+*	reshape2
 
 ####Variables used in the code:
 
 Generally names kept as close to the original as possible.
 
 The original data was read into the following data.frames
-X_test - data from X_test.txt
-y_test - data from y_test.txt
-test_subject - data  from subject_test.txt
-X_train - data from X_train.txt
-y_train - data from y_train.txt
-train_subject - data  from subject_train.txt
-activities - data from activity_labels.txt
-features - data from features.txt 
+*X_test - data from X_test.txt
+*y_test - data from y_test.txt
+*test_subject - data  from subject_test.txt
+*X_train - data from X_train.txt
+*y_train - data from y_train.txt
+*train_subject - data  from subject_train.txt
+*activities - data from activity_labels.txt
+*features - data from features.txt 
 
 ####Variables used during processing - 
 each time the data was changed it was written to a different data set with a name reflecting the changes made
 
-VarNames - list of character strings containing the names for the X_test and X_train data  
+*VarNames - list of character strings containing the names for the X_test and X_train data  
 		taken from the second column of activities
 train - data.frame containing the combined train data
 test - data.frame containing the combined test data
