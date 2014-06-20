@@ -13,7 +13,7 @@ A full description of the original data is available at the site where the data 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones, I have not 
 included this information here incase of duplication errors.
 
-All units remain as in the original data.
+All units remain as in the original data, see README.txt with original data.
 
 ####OUTPUT
 narrow_tidy_data.txt in the working directory, overwritten each time, this can be read into R using
