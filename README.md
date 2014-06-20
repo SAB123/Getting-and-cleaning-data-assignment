@@ -5,21 +5,19 @@ Created for Getting and Cleaning Data course
     Written using version 3.0.3 of R, version 0.98.501 of R Studio
     and the Windows 8 operating system.
 
-##	 INPUT
+###	 INPUT
 Original data taken from the course assignment web-site at
 https://class.coursera.org/getdata-004/hman_grading/view/courses/972137/assessments/3/submissions
 and copied to the working directory. This in turn came from 
 the accelerometers from the Samsung Galaxy S smartphone at
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-##	 OUTPUT
-	 narrow_tidy_data.txt in the working directory
+###	 OUTPUT
+ narrow_tidy_data.txt in the working directory
 	 
 
 
-This contains a general description of the processing of the data as per Community PA 
-Scott Von Kleeck's posting in Readme and Codebook.
-
+A general description of the processing of the data as per Community PA Scott Von Kleeck's posting in Readme and Codebook.
 
 ###   Read in the data - assumes files are in working directory
 
