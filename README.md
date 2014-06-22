@@ -68,9 +68,10 @@ readable as they will provide an audit trail back to the original data.
 
 Reorder the data again using melt() to get a long thin tidy data set with
 11880 observations of 4 variables one row for each subject, activity and measurement type.
-Not sure whether to use the wide or narrow data set, but both are available if
-required. The header names for columns 3 and 4 are now no longer meaningful so change them
-to measurement_type and measurement.
+Both the narrow and wide are tidy data sets (see David's FAQ in the discussion forum https://class.coursera.org/getdata-004/forum/thread?thread_id=106 ).
+The choice of narrow or wide data set will depend upon what is going to be done with the 
+data, both are available if required. The header names for columns 3 and 4 in the narrow data
+are now no longer meaningful so change them to measurement_type and measurement.
 
 Use write.table() to write the narrow data frame to the file narrow_tidy_data.txt 
-in the working directory.
+in the working directory. 
